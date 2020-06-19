@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script src="https://kit.fontawesome.com/2db298c112.js" crossorigin="anonymous"></script> 
+	<link rel="stylesheet" type="text/css" href="calstyle.css">
+	<script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="display">
+			<div class="input">
+				<input type="text" name="" id="input1" value="">
+				<input type="text" name="" id="input2" value="">
+			</div>
+			<div class="output">
+				<input type="text" name="" id="output1" value="">
+			</div>
+			
+		</div>
+
+		<div class="buttons">
+			<a href="calbig.html"><button class="op" id=""  value="" >&#8730;&nbsp;&#8508;</button></a>
+			<button class="op" style="background-color: black"> </button>
+			<button class="op" style="background-color: black;"> </button>
+			<button class="op" onclick="backspace()"><i class="fas fa-backspace"></i></button>
+			
+			<button class="op" id="(" value="(" onclick="f('(');s('(')">(</button>
+			<button class="op" id=")" value=")" onclick="f(')');s(')')">)</button>
+			<button class="op" id="%" value="%" onclick="f('%');s('%')">%</button>
+			<button class="op" id="/" value="/" onclick="f('/');s('/')">&#247;</button>
+			
+			<button class="op" id="7" value="7" onclick="f('7');s('7')">7</button>
+			<button class="op" id="8" value="8" onclick="f('8');s('8')">8</button>
+			<button class="op" id="9" value="9" onclick="f('9');s('9')">9</button>
+			<button class="op" id="*" value="*" onclick="f('*');s('*')">X</button>
+			
+			<button class="op" id="4" value="4" onclick="f('4');s('4')">4</button>
+			<button class="op" id="5" value="5" onclick="f('5');s('5')">5</button>
+			<button class="op" id="6" value="6" onclick="f('6');s('6')">6</button>
+			<button class="op" id="-" value="-" onclick="f('-');s('-')">-</button>
+			
+			<button class="op" id="1" value="1" onclick="f('1');s('1')">1</button>
+			<button class="op" id="2" value="2" onclick="f('2');s('2')">2</button>
+			<button class="op" id="3" value="3" onclick="f('3');s('3')">3</button>
+			<button class="op" id="+" value="+" onclick="f('+');s('+')">+</button>
+
+			<button class="op" id="AC" value="AC" onclick="clr()" style="background-color: olive;">C</button>
+			<button class="op" id="0" value="0" onclick="f('0');s('0')">0</button>
+			<button class="op" id="." value="." onclick="f('.');s('.')">.</button>
+			<button class="op" id="=" value="=" onclick="sol()" style="background-color: olive">=</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.container{
+	width: 575px;
+	height: 650px;
+	background-color: black;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+
+}
+.display{
+	height: 120px;
+}
+.buttons{
+	height: auto;
+}
+input{
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	margin-right: 25px;
+	width: 90%;
+	border-width: 0;
+	outline: none;
+	text-align: right;
+	background-color: black;
+	color: white;
+}
+#input2{
+	font-size: 0px;
+	border: 0;
+	width: 0;
+	height: 0;
+}
+#input1{
+	font-size: 20px;
+}
+#output1{
+	font-size: 30px;
+}
+.op{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 75%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	overflow: hidden;
+	background-color: grey;
+}
+.op:hover{
+	content: "";
+	background-color: olive;
+}
+.op:active{
+	background-color: olive;
+}
+.op:focus{
+	outline: 0;
+}

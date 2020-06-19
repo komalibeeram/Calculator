@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script src="https://kit.fontawesome.com/2db298c112.js" crossorigin="anonymous"></script> 
+	<link rel="stylesheet" type="text/css" href="bigstyle.css">
+	<script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="display">
+			<div class="input">
+				<input type="text" name="" id="input1" value="">
+				<input type="text" name="" id="input2" value="">
+			</div>
+			<div class="output">
+				<input type="text" name="" id="output1" value="">
+			</div>
+			
+		</div>
+
+		<div class="buttons">
+			<a href="index2.html"><button class="op" id=""  value="" >+&nbsp;-</button></a>
+			<button class="op" style="background-color: black"> </button>
+			<button class="op" style="background-color: black;"> </button>
+			<button class="op" style="background-color: black;"> </button>
+			<button class="op" style="background-color: black;"> </button>
+			<button class="op" style="background-color: black;"> </button>
+			<button class="op" onclick="backspace()"><i class="fas fa-backspace"></i></button>
+
+			<button class="op" id="tan" value="tan" onclick="f('tan(');s('Math.tan(')">tan</button>
+			<button class="op" id="x!" value="," onclick="f(',');s(',')" >,</button>
+			<button class="op" id="sqrt" value="&#8730;" onclick="f('&#8730;(');s('Math.sqrt(')">&#8730;</button>
+			<button class="op" id="(" value="(" onclick="f('(');s('(')">(</button>
+			<button class="op" id=")" value=")" onclick="f(')');s(')')">)</button>
+			<button class="op" id="%" value="%" onclick="f('%');s('%')">%</button>
+			<button class="op" id="/" value="/" onclick="f('/');s('/')">&#247;</button>
+
+			<button class="op" id="asin" value="sin<sup>-1</sup>" onclick="f('asin(');s('Math.asin(')">sin<sup>-1</sup></button>
+			<button class="op" id="pi" value="&#8508;" onclick="f('&#8508;');s('Math.PI')">&#8508;</button>
+			<button class="op" id="pow" value="x<sup>y</sup>" onclick="f('pow(');s('Math.pow(')">x<sup>y</sup></button>
+			<button class="op" id="7" value="7" onclick="f('7');s('7')">7</button>
+			<button class="op" id="8" value="8" onclick="f('8');s('8')">8</button>
+			<button class="op" id="9" value="9" onclick="f('9');s('9')">9</button>
+			<button class="op" id="*" value="*" onclick="f('*');s('*')">X</button>
+
+			<button class="op" id="acos" value="cos<sup>-1</sup>" onclick="f('acos(');s('Math.acos(')">cos<sup>-1</sup></button>
+			<button class="op" id="log" value="log" onclick="f('log(');s('Math.log(')">log</button>
+			<button class="op" id="e" value="e" onclick="f('e');s('Math.E')">e</button>
+			<button class="op" id="4" value="4" onclick="f('4');s('4')">4</button>
+			<button class="op" id="5" value="5" onclick="f('5');s('5')">5</button>
+			<button class="op" id="6" value="6" onclick="f('6');s('6')">6</button>
+			<button class="op" id="-" value="-" onclick="f('-');s('-')">-</button>
+			
+			<button class="op" id="atan" value="tan<sup>-1</sup>" onclick="f('atan');s('Math.atan(')">tan<sup>-1</sup></button>
+			<button class="op" id="cbrt" value="&#x221B;;" onclick="f('&#x221B;(');s('Math.cbrt(')">&#x221B;</button>
+			<button class="op" id="pow" value="e<sup>x</sup>" onclick="f('e^(');s('Math.pow(Math.E,')">e<sup>x</sup></button>
+			<button class="op" id="1" value="1" onclick="f('1');s('1')">1</button>
+			<button class="op" id="2" value="2" onclick="f('2');s('2')">2</button>
+			<button class="op" id="3" value="3" onclick="f('3');s('3')">3</button>
+			<button class="op" id="+" value="+" onclick="f('+');s('+')">+</button>
+			
+			<button class="op" id="ln" value="ln" onclick="f('ln(');s('Math.LN(')">ln</button>
+			<button class="op" id="cos" value="cos" onclick="f('cos(');s('Math.cos(')">cos</button>
+			<button class="op" id="sin" value="sin" onclick="f('sin(');s('Math.sin(')">sin</button>
+			<button class="op" id="C" value="AC" onclick="clr()" style="background-color: olive;>C</button>
+			<button class="op" id="0" value="0" onclick="f('0');s('0')">0</button>
+			<button class="op" id="." value="." onclick="f('.');s('.')">.</button>
+			<button class="op" id="=" value="=" onclick="sol()" style="background-color: olive">=</button>
+		</div>
+	</div>
+</body>
+</html>
